@@ -1,0 +1,177 @@
+.html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+.body {
+	background-color: #fbf9f2;
+	font-family: 'Roboto Mono', monospace;
+	color: #231f20;
+}
+
+.kolorowy_text {
+	margin: 20px;
+	font-weight: var(--custom-font-weight-bold, 700);
+	color: #0000;
+	background: linear-gradient(74deg, #240072 18.24%, #820091 56.22%, #2c021d 95.61%);
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.container {
+	font-family: 'Roboto Mono', monospace;
+	padding: 20px;
+	max-width: 850px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+.paragraph {
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+
+.button {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fbf9f2;
+	padding: 10px;
+	margin-top: auto;
+	border: none;
+	border-radius: 5px;
+	background-color: #231f20;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #4a4546;
+}
+
+.button:active {
+	background-color: #746f70;
+}
+
+.header {
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+.headline {
+	color: #fbf9f2;
+	background-color: #231f20;
+}
+
+.subHeader {
+	color: #231f20;
+}
+
+.navigation {
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+.unorderedList {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.listItem {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.link {
+	text-decoration: none;
+	color: #231f20;
+	padding: 5px;
+}
+
+.link:hover {
+	background-color: #231f20;
+	color: #fbf9f2;
+	font-weight: 700;
+	border-radius: 10px;
+}
+
+.link:active {
+	background-color: #4a4546;
+}
+
+.image {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.section {
+	color: #231f20;
+	line-height: 1.25;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+.table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.tableCell {
+	border: 1px solid #4a4546;
+	padding: 10px;
+	text-align: center;
+}
+
+.tableHeader {
+	border: 1px solid #4a4546;
+	background-color: #231f20;
+	color: #fbf9f2;
+}
+
+.tableHeader:hover {
+	background-color: #4a4546;
+}
+
+.tableRow:hover {
+	background-color: #c4c2bb;
+}
+
+.footer {
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #231f20;
+	text-align: center;
+	font-weight: 300;
+	color: #fbf9f2;
+}
+
+.footer:hover {
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgb(251, 249, 242);
+	background: linear-gradient(0deg, rgba(251, 249, 242, 1) 0%, rgba(35, 31, 32, 1) 100%);
+	text-align: center;
+	font-weight: 700;
+	color: #231f20;
+	scroll-padding-bottom: 20px;
+}
+
+.hacked {
+	color: #231f20;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.hide {
+	display: none;
+}
