@@ -1,4 +1,4 @@
-console.log('Litr żołądkowej to obowiąkowe!')
+console.log('Litr żołądkowej to obowiąkowe! Ten kod jest już w repozytorium Git.')
 
 let hacked = document.querySelector('.button')
 let action = document.querySelector('.js-action')
